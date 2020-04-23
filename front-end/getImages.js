@@ -18,7 +18,7 @@ searchBtn.addEventListener("click", () => {
 fetchImages(tag, page, perPage, orientation, false)
 
 function fetchImages(tag, page, perPage, orientation, moreFlag) {
-   fetch(`http://localhost:5000/api/getPhotos?tag=${tag}&page=${page}&perPage=${perPage}&orientation=${orientation}`, {
+   fetch(`https://infinite-scrolling-gallery.herokuapp.com/api/getPhotos?tag=${tag}&page=${page}&perPage=${perPage}&orientation=${orientation}`, {
       method: 'GET',
       headers: {
          'Content-Type': 'application/json',

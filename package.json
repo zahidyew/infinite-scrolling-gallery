@@ -5,16 +5,19 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server "
+    "dev": "nodemon server ",
+    "deploy": "gh-pages -d front-end"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://zahidyew.github.io/infinite-scrolling-gallery",
   "dependencies": {
     "babel-register": "^6.26.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
     "node-fetch": "^2.6.0",
     "unsplash-js": "^6.0.0"
   },
